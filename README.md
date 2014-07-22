@@ -1,5 +1,4 @@
 social
 ======
 
-Social simulation that allows coupling to various technology models. This simulation uses features of previous work in agent-based modeling in order to explore the spread of technological innovation across a 
-landscape. 
+An agent-based simulation that models the processes of technological innovation and diffusion. This simulation will be used to study the ways in which patterns of human movement and communication effect the spread of technology.
