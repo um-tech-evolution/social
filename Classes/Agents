@@ -1,6 +1,6 @@
 class GoalInnovations:
   
-  '''
+  	'''
 	Maintains list of all possible successful recombinations and the compositions that form them.
 	'''
 
@@ -8,7 +8,7 @@ class Tribe:
 	'''
 	A list of tribe members, technologies common to the tribe, technological goals, resources available to the tribe.... 
 	Methods for movement, cohesion (members of a tribe inhabiting the same general area), resource use, adding and deleting tribe members.
-  '''
+  	'''
 
 	def__init__(self, TribeMemberList, TechnologyList, GroupResource, goals)
 		self.TribeMemberList = []
@@ -78,13 +78,13 @@ class Innovator (Agent):
 		super().__init__()
 
 	def AttemptInnovation (self, GoalInnovations):
-    '''
-    After exchange occurs iterate over 'CulturalKnowledge,' look for matches in 'GoalInnovations.'
+    		'''
+    		After exchange occurs iterate over 'CulturalKnowledge,' look for matches in 'GoalInnovations.'
 		'''
 		pass
 
 	def Innovate (Self, TechnologyList)
-	  ''' 
+	  	''' 
 		Add successful recombinations to 'TechnologyList.' 
 		This should give some benefit to all agent's of the tribe, perhaps a decrease in the rate at which a resource is used up.
 		'''
