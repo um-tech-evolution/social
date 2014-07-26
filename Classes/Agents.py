@@ -56,8 +56,8 @@ class Agent:
     '''
     
     def __init__(self, tribe):
-        self.TribeStatus = tribe
-        self.CulturalKnowledge = [] + TechnologyList
+        self.tribeStatus = tribe
+        self.culturalKnowledge = [] + TechnologyList
     
     def communication(self, agent):
         '''
